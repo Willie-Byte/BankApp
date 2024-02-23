@@ -1,38 +1,47 @@
-.App {
-  text-align: center;
+/* Global styles */
+body, .card {
+  background-color: #6ab6f5; /* Dark gray for background */
+  color: #0c0b0b; /* White for text */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Styling for card components */
+.card {
+  border: 1px solid #000080; /* Navy blue border for cards */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Styling for buttons */
+.btn-primary {
+  background-color: #000080; /* Navy blue for buttons */
+  border: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Styling for button hover state */
+.btn-primary:hover {
+  background-color: #000033; /* Darker shade of navy blue */
 }
 
-.App-link {
-  color: #61dafb;
+/* Styling for form inputs */
+.form-control {
+  background-color: #5b8be4; /* Dark gray for input fields */
+  color: #a01a1a; /* White for input text */
+  border: 1px solid #350f7a;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Styling for navigation bar */
+.navbar {
+  background-color: #5cbcda; /* Navy blue for navbar */
 }
+
+/* Styling for navigation links */
+.nav-link {
+  color: #ffffff; /* White for navigation links */
+}
+
+.nav-link:hover {
+  color: #920f0f; /* Dark gray for hover state */
+}
+.navbar {
+  background-color: #000000; /* Black color for navigation bar */
+  color: rgb(0, 0, 0);
+}
+
